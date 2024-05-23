@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #myDIV {
+                width:100%;
+                position:relative;
+                background-color: white;
+                opacity: .8;
+                z-index: -1;
+            }
+            #imgs {
+                width:100%;
+                position:absolute;
+                background-color: white;
+                z-index: 10;
+                left:px;
+                
+            }
+            .title{
+                color:goldenrod;
+                font-size:xx-large;
+                align-self: center;
+                top:800px;
+                left:180px;
+                z-index:30;
+            }
+
+
+            .navbar{
+                width:100%;
+                position:relative;
+                z-index:10;
+                top:10px;
+                left:1200px;
+            }
+
+            .t2{
+                top:10px;
+                left:200px;
+                z-index:20;
+                color:goldenrod;
+            }
+
+            
+            
+            li a {
+                display:inline-flex;
+                padding: 10px;
+                background-color: white;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="myDIV">
+            <div id="imgs">
+            <img src="New Project.jpg" alt="CR.COMP" height="300px">
+            </div>
+        </div>
+
+        <div class = "t2">
+            <h2>BEST WORKERS. BEST JOB.</h2>
+        </div>
+
+        <div class="navbar">
+            <table>
+              <tr>
+                <td><img src="homeicon.jpg" alt="home" height="150px"></td>
+                <td><img src="priceicon.jpg" alt="price" height="150px"></td>
+                <td><img src="contacticon.jpg" alt="contact" height="150px"></td>
+              </tr>
+              <tr>
+                <td><li style="float:left;border: 2px solid black;"><a href="#home">Home</a></li></td>
+                <td><li style="float:left;border: 2px solid black;"><a href="#price">Price</a></li></td>
+                <td><li style="float:left;border: 2px solid black;"><a href="#contact">Contact</a></li></td>
+              </tr>
+            </table>
+        </div>
+          
+
+        
+    </body>
+</html>
