@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+        width:100%;
+        position:relative;
+        background-color: white;
+        opacity: .8;
+        z-index: -1;
+      }
+#imgs {
+      width:100%;
+      position:absolute;
+      background-color: white;
+      z-index: 10;
+      left:px;
+      }
+ .title{
+        color:goldenrod;
+        font-size:xx-large;
+        align-self: center;
+        top:800px;
+        left:180px;
+         z-index:30;
+         }
+
+
+ .navbar{
+        width:100%;
+        position:relative;
+        z-index:10;
+        top:10px;
+        left:1200px;
+        }
+
+  .t2{
+      top:10px;
+      left:200px;
+      z-index:20;
+      color:goldenrod;
+     }
+
+            
+            
+  li a {
+        display:inline-flex;
+        padding: 10px;
+        background-color: white;
+       }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("https://img.freepik.com/free-photo/construction-works-frankfurt-downtown-germany_1268-20907.jpg?w=900&t=st=1715180307~exp=1715180907~hmac=a5bdb3e414ae4dc59efccf4fe1326af1e7adf0ba430c493e6d50889e1203a233");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:darkblue;
+}
+</style>
+</head>
+<body>
+  <div id="myDIV">
+    <div id="imgs">
+    <img src="New Project.jpg" alt="CR.COMP" height="300px">
+    </div>
+  </div>
+
+<div class = "t2">
+    <h2>BEST WORKERS. BEST JOB.</h2>
+</div>
+
+<div class="navbar">
+    <table>
+      <tr>
+        <td><img src="homeicon.jpg" alt="home" height="150px"></td>
+        <td><img src="priceicon.jpg" alt="price" height="150px"></td>
+        <td><img src="contacticon.jpg" alt="contact" height="150px"></td>
+      </tr>
+      <tr>
+        <td><li style="float:left;border: 2px solid black;"><a href="#home">Home</a></li></td>
+        <td><li style="float:left;border: 2px solid black;"><a href="#price">Price</a></li></td>
+        <td><li style="float:left;border: 2px solid black;"><a href="#contact">Contact</a></li></td>
+      </tr>
+    </table>
+</div>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Lets have a talk</h1>
+    <h3>Pitch us</h3>
+    <p>Note that this technique will also </p>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
