@@ -1,9 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <style>
+            body{
+                background-image: url("https://www.husqvarnaconstruction.com/-/images/aprimo/husqvarna-construction/wall-saws/photos/action/zw-812253.webp?v=6359f541547a72d6&format=HCP_HERO_LANDSCAPE_MD_WEBP");
+                background-color: white;
+                background-size:cover;
+                background-repeat: repeat;
+                font-family:sans-serif;
+            }
+
+            #myDIV {
+                width:100%;
+                position:relative;
+                background-color: white;
+                opacity: .8;
+                z-index: -1;
+            }
+            #imgs {
+                width:100%;
+                position:absolute;
+                background-color: white;
+                z-index: 10;
+                left:px;
+                
+            }
+            .title{
+                color:goldenrod;
+                font-size:xx-large;
+                align-self: center;
+                top:800px;
+                left:180px;
+                z-index:30;
+            }
+
+            h1{
+                color:goldenrod;
+                top:300px;
+                padding-top: 200px;
+                z-index:30;
+            }
+
+            .navbar{
+                width:100%;
+                position:relative;
+                z-index:10;
+                top:10px;
+                left:1200px;
+            }
+
+            .t2{
+                top:10px;
+                left:200px;
+                z-index:20;
+                color:goldenrod;
+            }
+
+            
+            
+            li a {
+                display:inline-flex;
+                padding: 10px;
+                background-color: white;
+            }
+
+        </style>
     </head>
+
     <body>
+        <div id="myDIV">
+            <div id="imgs">
+            <img src="New Project.jpg" alt="CR.COMP" height="300px">
+            </div>
+        </div>
+
+        <div class = "t2">
+            <h2>BEST WORKERS. BEST JOB.</h2>
+        </div>
+
+        <div class="navbar">
+            <table>
+              <tr>
+                <td><img src="homeicon.jpg" alt="home" height="150px"></td>
+                <td><img src="priceicon.jpg" alt="price" height="150px"></td>
+                <td><img src="contacticon.jpg" alt="contact" height="150px"></td>
+              </tr>
+              <tr>
+                <td><li style="float:left;border: 2px solid black;"><a href="#home">Home</a></li></td>
+                <td><li style="float:left;border: 2px solid black;"><a href="#price">Price</a></li></td>
+                <td><li style="float:left;border: 2px solid black;"><a href="#contact">Contact</a></li></td>
+              </tr>
+            </table>
+          </div>
+            
+          
+            <div class = "title">
+                <center><h1>CR CONSTRUCTION COMPANY</h1></center>
+                
+            </div>
+        </div>
+          
+
         
     </body>
 </html>
